@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    background: #e4e4e4;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(54, 54, 54);
+}
+
+header{
+    background-color: #8b8b8b;
+}
+.container{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#logo {
+    width: 140px;
+    margin: 20px 0;
+    height: auto;
+}
+
+.carousel {
+    margin-top: 30px;
+    max-height: 400px;
+    overflow: hidden;
+    display: flex;
+    
+}
+.carousel img {
+    width: 100%;
+    height: auto;
+    background-position: center;
+    object-fit: cover;
+}
+.row{
+    margin-right: 0;
+    margin: 40px  0 0;
+    padding: 0;
+}
+.row p,h6,h1{
+    margin-left: 40px;
+}
+a{
+    margin-left: 40px;
+    margin-top: 60px;
+    color: #861912;
+}
+.social{
+    margin: 20px 0;
+}
+
+.skills h1{
+    margin-bottom: 20px;
+}
+.skills{
+    margin-left: 5%;
+}
+.profile{
+    margin: 0 100px;
+    width: 60%;
+}
+h3{
+    margin: 0 0 0 30px;
+    align-items: center;
+    justify-content: center;
+}
+.formation{
+    margin-left: 40px;
+}
+.progress{
+    margin: 30px 0px 20px 20px;
+    width: 80vh;
+    display: flex;
+}
+footer{
+    background: #8b8b8b;
+    text-align: center;
+    padding: 10px 0;
+    height: 40px;
+    width: 100%;
+    margin: 0;
+}
+.accordion-item{
+    margin-bottom: 10px;
+}
+p{
+    margin-bottom: 10px;
+}
+.accordion-body h2{
+    margin: 20px 0 0 0;
+    flex-direction: row;
+}
+.accordion-body{
+    display: flex;
+}
+.accordion-button:not(.collapsed){
+color: white;
+background-color: #861912;;
+}
